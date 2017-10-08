@@ -45,21 +45,18 @@ class RegisterViewController: UIViewController {
             
             // Do any additional setup after loading the view.
         }
-        
-        
     }
     
+
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         txtEmail.resignFirstResponder()
         txtPassword.resignFirstResponder()
         txtName.resignFirstResponder()
     }
-
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
+    
     
 
     /*
