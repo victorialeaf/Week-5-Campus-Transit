@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5C3CE8681F89C07F00594684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3CE8671F89C07F00594684 /* AppDelegate.swift */; };
-		5C3CE86A1F89C07F00594684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3CE8691F89C07F00594684 /* ViewController.swift */; };
 		5C3CE86D1F89C07F00594684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3CE86B1F89C07F00594684 /* Main.storyboard */; };
 		5C3CE86F1F89C07F00594684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3CE86E1F89C07F00594684 /* Assets.xcassets */; };
 		5C3CE8721F89C07F00594684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3CE8701F89C07F00594684 /* LaunchScreen.storyboard */; };
@@ -252,7 +251,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C5787EA1F89C7BF0095ED07 /* LoginViewController.swift in Sources */,
-				5C3CE86A1F89C07F00594684 /* ViewController.swift in Sources */,
 				5C3CE8681F89C07F00594684 /* AppDelegate.swift in Sources */,
 				5C5787EC1F89C7C90095ED07 /* RegisterViewController.swift in Sources */,
 			);
