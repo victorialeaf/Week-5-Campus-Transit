@@ -12,9 +12,16 @@
 		5C3CE86D1F89C07F00594684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3CE86B1F89C07F00594684 /* Main.storyboard */; };
 		5C3CE86F1F89C07F00594684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3CE86E1F89C07F00594684 /* Assets.xcassets */; };
 		5C3CE8721F89C07F00594684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3CE8701F89C07F00594684 /* LaunchScreen.storyboard */; };
+		5C3CE87A1F89C0BF00594684 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C3CE8791F89C0BF00594684 /* GoogleService-Info.plist */; };
+		5C5787E21F89C2CB0095ED07 /* marquette-university-wisconsin-avenue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C5787E11F89C2CB0095ED07 /* marquette-university-wisconsin-avenue.jpg */; };
+		5C5787EA1F89C7BF0095ED07 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5787E91F89C7BF0095ED07 /* LoginViewController.swift */; };
+		5C5787EC1F89C7C90095ED07 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5787EB1F89C7C90095ED07 /* RegisterViewController.swift */; };
+		5C5787F01F89CBEB0095ED07 /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C5787EF1F89CBEB0095ED07 /* unnamed.png */; };
+		7FCCBB99CF8208FB4745069A /* Pods_CampusTransit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 487A5E8BD871CCCA67FB3924 /* Pods_CampusTransit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		487A5E8BD871CCCA67FB3924 /* Pods_CampusTransit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampusTransit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3CE8641F89C07F00594684 /* CampusTransit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampusTransit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3CE8671F89C07F00594684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C3CE8691F89C07F00594684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,13 @@
 		5C3CE86E1F89C07F00594684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C3CE8711F89C07F00594684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C3CE8731F89C07F00594684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C3CE8791F89C0BF00594684 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5C5787E11F89C2CB0095ED07 /* marquette-university-wisconsin-avenue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "marquette-university-wisconsin-avenue.jpg"; path = "../marquette-university-wisconsin-avenue.jpg"; sourceTree = "<group>"; };
+		5C5787E91F89C7BF0095ED07 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5C5787EB1F89C7C90095ED07 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5C5787EF1F89CBEB0095ED07 /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed.png; sourceTree = SOURCE_ROOT; };
+		78B2D02BCC9D1847B05A03BC /* Pods-CampusTransit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusTransit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CampusTransit/Pods-CampusTransit.debug.xcconfig"; sourceTree = "<group>"; };
+		88077B062397DBBF0D858A8F /* Pods-CampusTransit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusTransit.release.xcconfig"; path = "Pods/Target Support Files/Pods-CampusTransit/Pods-CampusTransit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FCCBB99CF8208FB4745069A /* Pods_CampusTransit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				5C3CE8661F89C07F00594684 /* CampusTransit */,
 				5C3CE8651F89C07F00594684 /* Products */,
+				E7C6DA15DEBCB47106DEC74C /* Pods */,
+				7BE7142882BAE8DD4B24B018 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,44 @@
 		5C3CE8661F89C07F00594684 /* CampusTransit */ = {
 			isa = PBXGroup;
 			children = (
+				5C5787E81F89C7AF0095ED07 /* Controllers */,
 				5C3CE8671F89C07F00594684 /* AppDelegate.swift */,
 				5C3CE8691F89C07F00594684 /* ViewController.swift */,
 				5C3CE86B1F89C07F00594684 /* Main.storyboard */,
+				5C5787E11F89C2CB0095ED07 /* marquette-university-wisconsin-avenue.jpg */,
+				5C5787EF1F89CBEB0095ED07 /* unnamed.png */,
 				5C3CE86E1F89C07F00594684 /* Assets.xcassets */,
 				5C3CE8701F89C07F00594684 /* LaunchScreen.storyboard */,
 				5C3CE8731F89C07F00594684 /* Info.plist */,
+				5C3CE8791F89C0BF00594684 /* GoogleService-Info.plist */,
 			);
 			path = CampusTransit;
+			sourceTree = "<group>";
+		};
+		5C5787E81F89C7AF0095ED07 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5C5787E91F89C7BF0095ED07 /* LoginViewController.swift */,
+				5C5787EB1F89C7C90095ED07 /* RegisterViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7BE7142882BAE8DD4B24B018 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				487A5E8BD871CCCA67FB3924 /* Pods_CampusTransit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7C6DA15DEBCB47106DEC74C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78B2D02BCC9D1847B05A03BC /* Pods-CampusTransit.debug.xcconfig */,
+				88077B062397DBBF0D858A8F /* Pods-CampusTransit.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +118,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C3CE8761F89C07F00594684 /* Build configuration list for PBXNativeTarget "CampusTransit" */;
 			buildPhases = (
+				2D38A63C395FFDBF0C744C82 /* [CP] Check Pods Manifest.lock */,
 				5C3CE8601F89C07F00594684 /* Sources */,
 				5C3CE8611F89C07F00594684 /* Frameworks */,
 				5C3CE8621F89C07F00594684 /* Resources */,
+				CCD976C873D8AD95678410EF /* [CP] Embed Pods Frameworks */,
+				0BDFD4FB66CC2922A3936E7C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,20 +174,87 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C3CE8721F89C07F00594684 /* LaunchScreen.storyboard in Resources */,
+				5C3CE87A1F89C0BF00594684 /* GoogleService-Info.plist in Resources */,
+				5C5787F01F89CBEB0095ED07 /* unnamed.png in Resources */,
 				5C3CE86F1F89C07F00594684 /* Assets.xcassets in Resources */,
 				5C3CE86D1F89C07F00594684 /* Main.storyboard in Resources */,
+				5C5787E21F89C2CB0095ED07 /* marquette-university-wisconsin-avenue.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BDFD4FB66CC2922A3936E7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CampusTransit/Pods-CampusTransit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D38A63C395FFDBF0C744C82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampusTransit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCD976C873D8AD95678410EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CampusTransit/Pods-CampusTransit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CampusTransit/Pods-CampusTransit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5C3CE8601F89C07F00594684 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5787EA1F89C7BF0095ED07 /* LoginViewController.swift in Sources */,
 				5C3CE86A1F89C07F00594684 /* ViewController.swift in Sources */,
 				5C3CE8681F89C07F00594684 /* AppDelegate.swift in Sources */,
+				5C5787EC1F89C7C90095ED07 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +377,7 @@
 		};
 		5C3CE8771F89C07F00594684 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B2D02BCC9D1847B05A03BC /* Pods-CampusTransit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CampusTransit/Info.plist;
@@ -272,6 +390,7 @@
 		};
 		5C3CE8781F89C07F00594684 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88077B062397DBBF0D858A8F /* Pods-CampusTransit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CampusTransit/Info.plist;
@@ -301,6 +420,7 @@
 				5C3CE8781F89C07F00594684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
