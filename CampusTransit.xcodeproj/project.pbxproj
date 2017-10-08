@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C019CB91F8AD53500A6B975 /* CampusTransit.app in Resources */ = {isa = PBXBuildFile; fileRef = 5C3CE8641F89C07F00594684 /* CampusTransit.app */; };
+		5C019CBB1F8AD62600A6B975 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C019CBA1F8AD62600A6B975 /* GoogleService-Info-2.plist */; };
+		5C019CBD1F8AD64000A6B975 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C019CBC1F8AD64000A6B975 /* GoogleService-Info-2.plist */; };
 		5C3CE8681F89C07F00594684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3CE8671F89C07F00594684 /* AppDelegate.swift */; };
 		5C3CE86D1F89C07F00594684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3CE86B1F89C07F00594684 /* Main.storyboard */; };
 		5C3CE86F1F89C07F00594684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3CE86E1F89C07F00594684 /* Assets.xcassets */; };
@@ -21,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		487A5E8BD871CCCA67FB3924 /* Pods_CampusTransit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampusTransit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C019CBA1F8AD62600A6B975 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-2.plist"; path = "../../../Downloads/GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		5C019CBC1F8AD64000A6B975 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-2.plist"; path = "../../../Downloads/GoogleService-Info-2.plist"; sourceTree = "<group>"; };
 		5C3CE8641F89C07F00594684 /* CampusTransit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampusTransit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3CE8671F89C07F00594684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C3CE8691F89C07F00594684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +75,7 @@
 		5C3CE8661F89C07F00594684 /* CampusTransit */ = {
 			isa = PBXGroup;
 			children = (
+				5C019CBC1F8AD64000A6B975 /* GoogleService-Info-2.plist */,
 				5C5787E81F89C7AF0095ED07 /* Controllers */,
 				5C3CE8671F89C07F00594684 /* AppDelegate.swift */,
 				5C3CE8691F89C07F00594684 /* ViewController.swift */,
@@ -78,6 +84,7 @@
 				5C5787EF1F89CBEB0095ED07 /* unnamed.png */,
 				5C3CE86E1F89C07F00594684 /* Assets.xcassets */,
 				5C3CE8701F89C07F00594684 /* LaunchScreen.storyboard */,
+				5C019CBA1F8AD62600A6B975 /* GoogleService-Info-2.plist */,
 				5C3CE8731F89C07F00594684 /* Info.plist */,
 				5C3CE8791F89C0BF00594684 /* GoogleService-Info.plist */,
 			);
@@ -174,7 +181,10 @@
 			files = (
 				5C3CE8721F89C07F00594684 /* LaunchScreen.storyboard in Resources */,
 				5C3CE87A1F89C0BF00594684 /* GoogleService-Info.plist in Resources */,
+				5C019CBB1F8AD62600A6B975 /* GoogleService-Info-2.plist in Resources */,
 				5C5787F01F89CBEB0095ED07 /* unnamed.png in Resources */,
+				5C019CB91F8AD53500A6B975 /* CampusTransit.app in Resources */,
+				5C019CBD1F8AD64000A6B975 /* GoogleService-Info-2.plist in Resources */,
 				5C3CE86F1F89C07F00594684 /* Assets.xcassets in Resources */,
 				5C3CE86D1F89C07F00594684 /* Main.storyboard in Resources */,
 				5C5787E21F89C2CB0095ED07 /* marquette-university-wisconsin-avenue.jpg in Resources */,
